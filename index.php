@@ -1,7 +1,8 @@
 <?php
 
 
-require_once 'Classes.php';
+require_once 'Car.php';
+require_once 'Bicycle.php';
 $car = new Car('blue', 5, 'gasoline');
 var_dump($car);
 
